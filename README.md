@@ -6,6 +6,8 @@ git with init
 
 ``` ts
 function abc(x, y) {
+    if(x+y != 5) return;
+    console.log(x,y)
     return x + y;
 }
 ```
