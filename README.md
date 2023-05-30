@@ -18,8 +18,8 @@ function abc(x, y) {
         return 0;
     }
     if(!y) {
-        return 1;
         console.log(y);
+        return 1;
     }
     return x + y;
 }
