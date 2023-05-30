@@ -5,6 +5,13 @@ git with init
 “First commit after cloning!!!”
 
 ``` ts
+function calculator(x, y, z) {
+    console.log(x,y,z)
+    return x  +  y +z;
+}
+```
+
+``` ts
 function abc(x, y) {
     console.log(x,y)
     console.error(x);
