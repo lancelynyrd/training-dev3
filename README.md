@@ -24,3 +24,11 @@ function abc(x, y) {
     return x + y;
 }
 ```
+
+``` ts
+
+function multiply(x,y) {
+    return x * y;
+}
+
+```
