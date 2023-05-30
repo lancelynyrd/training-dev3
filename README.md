@@ -6,6 +6,10 @@ git with init
 
 ``` ts
 function abc(x, y) {
+    if(!x) return 0;
+    if(!y) return 1;
+    console.error(x);
+    console.error(y);
     return x + y;
 }
 ```
